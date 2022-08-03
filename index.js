@@ -38,8 +38,10 @@ for(let i=1;i<13;i++){
             aa = i;
         }
         else if(b==null){
+            if(i!=aa){
             b=arr[i-1];
             bb = i;
+            }
         }
         if(a!=null && b!=null){
             turns++;
