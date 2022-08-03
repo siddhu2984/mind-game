@@ -46,7 +46,7 @@ for(let i=1;i<13;i++){
         if(a!=null && b!=null){
             turns++;
             $("p.tun").text(turns);
-            setTimeout(check,1300,a,b,aa,bb);
+            setTimeout(check,1000,a,b,aa,bb);
             a=null;
             b=null;
             aa=null;
