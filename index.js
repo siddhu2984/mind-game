@@ -94,4 +94,5 @@ $("button.btn").click(function(){
 
     }
     rand();
+    shuf();
 })
